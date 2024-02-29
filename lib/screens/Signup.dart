@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:mobdev_app/screens/Dashboard.dart';
 import 'package:mobdev_app/screens/LoginScreen.dart';
-import 'package:mobdev_app/screens/Settings.dart';
+import 'package:mobdev_app/screens/Setting.dart';
 import 'package:mobdev_app/screens/Signup.dart';
 import 'package:mobdev_app/widgets/CustomTextField.dart';
 import 'package:mobdev_app/widgets/PasswordField.dart';

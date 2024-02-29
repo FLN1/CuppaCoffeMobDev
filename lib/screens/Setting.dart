@@ -5,14 +5,14 @@ import 'package:mobdev_app/services/AuthService.dart';
 import 'package:mobdev_app/services/StorageService.dart';
 import 'package:mobdev_app/widgets/PrimaryButton.dart';
 
-class Settings extends StatefulWidget {
+class Setting extends StatefulWidget {
   static String routeName = "/settings";
 
   @override
-  State<Settings> createState() => _SettingsState();
+  State<Setting> createState() => _SettingsState();
 }
 
-class _SettingsState extends State<Settings> {
+class _SettingsState extends State<Setting> {
   StorageService _storageService = StorageService();
   AuthService _authService = AuthService();
   @override
